@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "tldarg",
+	"name": "Evernote Task Clipper",
 	"description": "Be concise.",
 	"version": "0.1",
 	"icons": {
@@ -9,7 +9,6 @@
 		"128" : "images/128_icon.png"
 	},
 	"content_scripts": [ {
-	    "matches": ["https://www.yammer.com/*", "https://www.staging.yammer.com/*", "https://www.thunderdome.yammer.com/*"],
 	    "js": ["js/jquery-1.9.1.min.js", "js/background.js"]
 	  }]
 }
